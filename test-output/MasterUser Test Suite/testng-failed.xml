@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [MasterUser Test Suite]">
+  <listeners>
+    <listener class-name="CommonMethods.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" verbose="10" name="Smoke test(failed)">
+    <classes>
+      <class name="MyScripts.masterUserPackage.OrganizationTests">
+        <methods>
+          <include name="addOrganizationTest"/>
+        </methods>
+      </class> <!-- MyScripts.masterUserPackage.OrganizationTests -->
+    </classes>
+  </test> <!-- Smoke test(failed) -->
+</suite> <!-- Failed suite [MasterUser Test Suite] -->
